@@ -1,0 +1,19 @@
+/* img {
+  width: 50%;
+  height: 50%;
+} */
+
+h3 {
+  position: absolute;
+  top: 40%;
+  right: 20%;
+  font-size: 25px;
+  color: #fff;
+}
+
+.cl {
+  position: absolute;
+  top: 45%;
+  right: 20%;
+  color: #fff;
+}

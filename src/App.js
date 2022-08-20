@@ -1,7 +1,10 @@
+import React from "react";
+import Layout from "./Components/Layout/index";
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">TUZO</header>
+      <Layout />
     </div>
   );
 }
