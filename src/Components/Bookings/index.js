@@ -1,5 +1,5 @@
 import "./index.scss";
-import colorHookah from "../../Images/colorHookah.jpeg";
+import colorHookah from "../../Images/hookahGold.png";
 
 function Bookings() {
   return (

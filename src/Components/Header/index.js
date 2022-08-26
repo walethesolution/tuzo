@@ -3,7 +3,7 @@ import "./index.scss";
 
 function Header({ menuOpen, setMenuOpen }) {
   return (
-    <div className={"topbar " + (menuOpen && "active")}>
+    <div className={"header " + (menuOpen && "active")}>
       <div className="wrapper">
         <div className="left">
           <h2>Tuzo Hookah</h2>
