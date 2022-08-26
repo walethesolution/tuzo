@@ -1,10 +1,10 @@
-import "./index.css";
+import "./index.scss";
 import colorHookah from "../../Images/colorHookah.jpeg";
 
 function Bookings() {
   return (
-    <div className="bookings">
-      <img src={colorHookah} alt="colorful hookah"></img>
+    <div className="bookings" id="bookings">
+      {/* <img src={colorHookah} alt="colorful hookah"></img> */}
       <div className="contact-form">
         <form>
           <ul>

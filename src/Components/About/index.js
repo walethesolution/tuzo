@@ -1,8 +1,8 @@
-import "./index.css";
+import "./index.scss";
 
 function About() {
   return (
-    <div className="about">
+    <div className="about" id="about">
       <h2>About Us</h2>
       <div className="text-wrapper">
         <p>

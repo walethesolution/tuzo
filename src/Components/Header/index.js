@@ -1,30 +1,20 @@
 import React from "react";
-import "./index.css";
-import { Link } from "react-router-dom";
-function Header() {
+import "./index.scss";
+
+function Header({ menuOpen, setMenuOpen }) {
   return (
-    <div className="header">
-      <h1 className="logo">TUZO Hookah</h1>
-      <div className="right">
-        <nav>
-          <ul>
-            <li>
-              <a href="/">Home</a>
-            </li>
-            <li>
-              <a href="/about">TUZO</a>
-            </li>
-            <li>
-              <a href="/bookings">Bookings</a>
-            </li>
-            <li>
-              <a href="/contact">Contacts</a>
-            </li>
-            <li>
-              <a href="services">Our Services</a>
-            </li>
-          </ul>
-        </nav>
+    <div className={"topbar " + (menuOpen && "active")}>
+      <div className="wrapper">
+        <div className="left">
+          <h2>Tuzo Hookah</h2>
+        </div>
+        <div className="right">
+          <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
+            <span className="line1"></span>
+            <span className="line2"></span>
+            <span className="line3"></span>
+          </div>
+        </div>
       </div>
     </div>
   );

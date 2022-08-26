@@ -1,8 +1,8 @@
-import "./index.css";
+import "./index.scss";
 
 function Contact() {
   return (
-    <div className="contact">
+    <div className="contact" id="contact">
       <h2>Contact Us</h2>
     </div>
   );
