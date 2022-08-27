@@ -10,7 +10,7 @@ function Menu({ menuOpen, setMenuOpen }) {
           <a href="#home">Home</a>
         </li>
         <li onClick={handleClick}>
-          <a href="#tuzo">Tuzo</a>
+          <a href="#about">Tuzo</a>
         </li>
         <li onClick={handleClick}>
           <a href="#bookings">Bookings</a>

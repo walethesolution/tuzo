@@ -5,12 +5,12 @@ function Home() {
   return (
     <div className="home" id="home">
       <div className="imgContainer">
-        <img src={hookah} alt="Hookah vector"></img>
+        {/* <img src={hookah} alt="Hookah vector"></img> */}
       </div>
-      {/* <div className="text-container">
+      <div className="text-container">
         <h3> One pull</h3>
         <h2> LOUD CLOUD</h2>
-      </div> */}
+      </div>
     </div>
   );
 }

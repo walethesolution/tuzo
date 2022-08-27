@@ -1,5 +1,5 @@
 import React from "react";
-// import "./index.scss";
+import "./index.scss";
 import { useState } from "react";
 import Header from "../Header";
 import Home from "../Home";
@@ -12,7 +12,7 @@ import Menu from "../Menu";
 function Layout() {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
-    <div className="app">
+    <div className="layout">
       <Header menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <div className="sections">
