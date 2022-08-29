@@ -8,13 +8,32 @@ function Header({ menuOpen, setMenuOpen }) {
         <div className="left">
           <h2>Tuzo Hookah</h2>
         </div>
-        <div className="right">
+        <div className="nav-menu">
+          <ul>
+            <li>
+              <a href="#home">Home</a>
+            </li>
+            <li>
+              <a href="#about">TUZO</a>
+            </li>
+            <li>
+              <a href="#booking">Booking</a>
+            </li>
+            <li>
+              <a href="#contact">Contact Us</a>
+            </li>
+            <li>
+              <a href="#services">Our Services</a>
+            </li>
+          </ul>
+        </div>
+        {/* <div className="right">
           <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
             <span className="line1"></span>
             <span className="line2"></span>
             <span className="line3"></span>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

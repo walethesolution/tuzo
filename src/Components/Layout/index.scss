@@ -1,12 +1,12 @@
 .layout {
-  height: 100vh;
+  height: 100%;
 
   .sections {
     width: 100%;
-    height: calc(100vh - 70px);
+    //   // overflow-x: hidden;
+    height: calc(100% - 100px);
     background-color: #000;
-    position: relative;
-    top: 70px;
+    // position: relative;
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
     scrollbar-width: none; //for firefox
@@ -15,7 +15,7 @@
     }
 
     > * {
-      width: 100vw;
+      width: 100%;
       height: calc(100vh - 70px);
       scroll-snap-align: start;
     }

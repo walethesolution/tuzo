@@ -1,12 +1,12 @@
 import "./index.scss";
 import colorHookah from "../../Images/hookahGold.png";
 
-function Bookings() {
+function Booking() {
   return (
-    <div className="bookings" id="bookings">
+    <div className="booking" id="booking">
       {/* <img src={colorHookah} alt="colorful hookah"></img> */}
     </div>
   );
 }
 
-export default Bookings;
+export default Booking;
