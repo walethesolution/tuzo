@@ -1,12 +1,15 @@
 import React from "react";
 import "./index.scss";
+import hookahLogo from "../../Images/TZhookah.png";
 
 function Header({ menuOpen, setMenuOpen }) {
   return (
     <div className={"header " + (menuOpen && "active")}>
       <div className="wrapper">
         <div className="left">
-          <h2>Tuzo Hookah</h2>
+          {/* <h2>Tuzo Hookah</h2>
+           */}
+          <img src={hookahLogo} alt="Hookah Logo" />
         </div>
         <div className="nav-menu">
           <ul>

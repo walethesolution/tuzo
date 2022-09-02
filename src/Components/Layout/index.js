@@ -4,7 +4,7 @@ import { useState } from "react";
 import Header from "../Header";
 import Home from "../Home";
 import About from "../About";
-import Booking from "../Booking";
+import Bookings from "../Bookings";
 import Contact from "../Contact";
 import Services from "../Services";
 import Menu from "../Menu";
@@ -18,7 +18,7 @@ function Layout() {
       <div className="sections">
         <Home />
         <About />
-        <Booking />
+        <Bookings />
         <Contact />
         <Services />
       </div>
