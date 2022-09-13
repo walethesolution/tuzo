@@ -10,11 +10,15 @@ function Layout() {
   return (
     <div className="layout">
       <Header />
-      <Routes>
-        <Route path="/" element={<HomeAboutContact />} />
-        <Route path="/booking" element={<Booking />} />
-        <Route path="/service" element={<Service />} />
-      </Routes>
+      {/* <Routes> */}
+      {/* <Route path="/" element={<HomeAboutContact />} /> */}
+      <HomeAboutContact />
+      {/* <Route path="/booking" element={<Booking />} />
+       */}
+      <Booking />
+      <Service />
+      {/* <Route path="/service" element={<Service />} /> */}
+      {/* </Routes> */}
       <Footer />
     </div>
   );
