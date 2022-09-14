@@ -5,10 +5,12 @@ import Service from "../Service";
 import Footer from "../Footer";
 import { Routes, Route } from "react-router-dom";
 import HomeAboutContact from "../HomeAboutContact";
+import NavBar from "../NavBar";
 
 function Layout() {
   return (
     <div className="layout">
+      <NavBar />
       <Header />
       {/* <Routes> */}
       {/* <Route path="/" element={<HomeAboutContact />} /> */}

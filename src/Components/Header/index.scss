@@ -1,3 +1,5 @@
+@import "../../global.scss";
+
 .header {
   gap: 2rem;
   margin: 0;
@@ -7,5 +9,5 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(173, 165, 165);
+  background-color: $mainColor;
 }
