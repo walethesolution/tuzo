@@ -1,15 +1,36 @@
 import "./index.scss";
-// import { Button } from "react-bootstrap";
+import TuzoHookah from "../../Videos/hookaahVid.mov";
+import { Container, Row, Col } from "react-bootstrap";
+import { Button } from "react-bootstrap";
 
 function About() {
   return (
     <div className="about">
-      About
-      <div className="grid-container">
-        <div className="img"></div>
-        <div className="text"></div>
-        <div className="img"></div>
-      </div>
+      <Container>
+        <Row>
+          <Col>
+            {/* <video loop autoPlay>
+              <source src={TuzoHookah} type="video/mp4" />
+            </video> */}
+            <h2>About Us</h2>
+            <p>
+              Tuzo hookah takes pride in providing you with BOSS-LIKE hookah
+              experience in all kind of events
+            </p>
+            <p>
+              ...with variety of flavors hand-crafted by the hookah technician
+              himself GATUZO.
+            </p>
+            <p>1 pull</p>
+            <p>LOUD CLOUD!!!</p>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <Button>Book now</Button>
+          </Col>
+        </Row>
+      </Container>
     </div>
   );
 }

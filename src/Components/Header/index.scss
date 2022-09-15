@@ -1,13 +1,17 @@
 @import "../../global.scss";
 
-.header {
-  gap: 2rem;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 85px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: $mainColor;
+// .header {
+//   gap: 2rem;
+//   margin: 0;
+//   padding: 0;
+//   width: 100%;
+//   height: 85px;
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+//   background-color: $mainColor;
+// }
+
+.right-align {
+  justify-content: flex-end;
 }
