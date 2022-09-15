@@ -1,5 +1,5 @@
 import "./index.scss";
-import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
+import { Navbar, Container, Nav } from "react-bootstrap";
 import TZhookah from "../../Images/tuzoLogo.png";
 
 function Header() {

@@ -15,7 +15,6 @@ function Service() {
                 <Card.Text>Top notch service by the hookah maestro.</Card.Text>
               </Card.Body>
             </Card>
-            <h1></h1>
           </Col>
           <Col>
             <Card>
@@ -35,12 +34,9 @@ function Service() {
               <Card.Img variant="top" src="holder.js/100px160" />
               <Card.Body>
                 <Card.Title>Hookah Setup Tutoial</Card.Title>
-                <Card.Text>
-                  Top notch teaching by the hookah maestro.
-                </Card.Text>
+                <Card.Text>Top notch teaching by the hookah maestro.</Card.Text>
               </Card.Body>
             </Card>
-            <h1></h1>
           </Col>
           <Col>
             <Card>

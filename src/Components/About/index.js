@@ -1,5 +1,4 @@
 import "./index.scss";
-import TuzoHookah from "../../Videos/hookaahVid.mov";
 import { Container, Row, Col } from "react-bootstrap";
 import { Button } from "react-bootstrap";
 
