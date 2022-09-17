@@ -1,12 +1,12 @@
-import { Col, Container, Row } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 import hookahVector from "../../Images/hookahVector.png";
 import "./index.scss";
 
 function Home() {
   return (
     <div className="home">
-      <Container>
-        <Row className="justify-content-md-center">
+      <div className="container">
+        <Row>
           <Col>
             <img
               src={hookahVector}
@@ -15,8 +15,13 @@ function Home() {
               alt="hookah vector"
             />
           </Col>
+          <h2 className="tuzoText">TUZO HOOKAH</h2>
         </Row>
-      </Container>
+        <div className="onePull">
+          <h3>1 pull</h3>
+          <h3>LOUD CLOUD</h3>
+        </div>
+      </div>
     </div>
   );
 }

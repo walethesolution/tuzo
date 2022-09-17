@@ -1,17 +1,39 @@
 @import "../../global.scss";
 
-// .header {
-//   gap: 2rem;
-//   margin: 0;
-//   padding: 0;
-//   width: 100%;
-//   height: 85px;
-//   display: flex;
-//   justify-content: space-between;
-//   align-items: center;
-//   background-color: $mainColor;
-// }
-
 .right-align {
   justify-content: flex-end;
+  align-items: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.mainNav {
+  background-color: #261929;
+  position: relative;
+
+  .nav {
+    // background-color: rgb(39, 26, 38);
+    margin-left: 15px;
+
+    img {
+      border-radius: 50%;
+    }
+  }
+
+  .links {
+    font-size: 17px;
+    margin: 20px;
+
+    // ul {
+    //   display: flex;
+    //   justify-content: space-around;
+    //   list-style: none;
+    //   // margin: 20px;
+    // }
+
+    a {
+      display: flex;
+      text-decoration: none;
+      margin-right: 40px;
+    }
+  }
 }
